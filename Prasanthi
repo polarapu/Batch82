@@ -1,0 +1,10 @@
+cd batch81
+ls
+touch prasad
+ls
+git status
+git add prasad
+git status
+git commit -m "Sample commit from prasad" prasad
+git status
+git push
