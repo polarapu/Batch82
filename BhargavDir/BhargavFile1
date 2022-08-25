@@ -1,0 +1,91 @@
+git init
+git config --global user.name "Polarapu Prasad"
+git config --global user.email "devopstraining2015@gmail.com"
+
+git config --list
+
+git config --global --unset user.name
+git config --global --unset user.email
+
+git config --list
+
+-----------------------
+touch file1
+ls
+git status
+git add file1
+git status
+git commit -m "label" file1
+git status
+git log
+git show cid
+
+
+touch file2 file3 file4
+git status
+git add file2 file3 file4
+or
+git add .
+or
+git add *
+or
+git add -A
+git status
+git commit -m "label"
+git log
+git show cid
+
+
+==============================
+
+git clone https://github.com/polarapu/Batch82.git
+ls
+cd Batch82
+touch file1
+git status
+git add file1
+git status
+git commit -m "label" file1
+git status
+git log
+git push
+
+========================
+git clone https://github.com/polarapu/Batch82.git
+ls
+cd Batch82
+ls
+touch prasad
+ls
+git status
+git add prasad
+git status
+git commit -m "sample commit" prasad
+git status
+git push
+
+git pull --rebase
+git push
+
+
+git add file1  (workspace to staging)
+git reset head file1  (staging to workspace)  n-1
+
+git commit -m "lable" file1  (staging to local)
+git reset --soft cid  (local to staging)   n-1
+
+git reset --mixed cid  (local to workspace)   n-1
+
+git reset --hard cid  (to delete commit and data)  n-1
+
+
+
+mkdir dir1
+ls
+cd dir1
+touch f1 f2
+cd ..
+git staus
+git add .
+git commit -m "sample dir"
+git push
