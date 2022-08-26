@@ -1,0 +1,7 @@
+git branch
+git branch release1
+git branch
+git checkout release1
+git checkout main
+create data, add, commit
+git checkout release1
