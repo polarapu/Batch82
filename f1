@@ -7,3 +7,5 @@ create data, add, commit
 git checkout release1
 test line3
 test line4
+test data
+git checkout release1
