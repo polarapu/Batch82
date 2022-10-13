@@ -1,0 +1,12 @@
+
+ls
+cd Batch82
+ls
+touch kalyan
+ls
+git status 
+git add kalyan
+git status 
+git commit -m "sample commit" kalyan 
+git status 
+git push 
